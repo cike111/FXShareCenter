@@ -7,7 +7,7 @@
 //
 
 #import "FXAppDelegate.h"
-
+#import "MJExtension.h"
 @implementation FXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

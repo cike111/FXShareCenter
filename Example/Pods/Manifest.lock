@@ -1,8 +1,6 @@
 PODS:
   - FXShareCenter (0.1.0):
-    - MJExtension
     - UMengUShare
-  - MJExtension (3.0.13)
   - UMengUShare (6.4.6):
     - UMengUShare/Core (= 6.4.6)
     - UMengUShare/Network (= 6.4.6)
@@ -129,8 +127,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FXShareCenter: 88d1895d169e17d3f03ebddb82e7f23e0762fc6f
-  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  FXShareCenter: 125856015eed81fbfdc100d5ae3a7aa39093050d
   UMengUShare: fdbbf86353976727af26a66e9a84314ecb59c816
 
 PODFILE CHECKSUM: 698a55fb2e3a6343652a12634ea6a317218cb49e

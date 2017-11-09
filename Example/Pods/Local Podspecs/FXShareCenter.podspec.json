@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of FXShareCenter.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/cike111/FXShareCenter",
+  "homepage": "https://github.com/cike111/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,12 +18,12 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FXShareCenter/Classes/*.{h,m}",
+  "source_files": [
+    "FXShareCenter/Classes/*.{h,m}",
+    "FXShareCenter/Classes/**/*.{h,m}"
+  ],
   "dependencies": {
     "UMengUShare": [
-
-    ],
-    "MJExtension": [
 
     ]
   }
