@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FXShareCenter_Example' do
+  pod 'FXShareCenter', :path => '../'
+
+  target 'FXShareCenter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
