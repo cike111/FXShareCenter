@@ -1,0 +1,138 @@
+PODS:
+  - FXShareCenter (0.1.0):
+    - MJExtension
+    - UMengUShare
+  - MJExtension (3.0.13)
+  - UMengUShare (6.4.6):
+    - UMengUShare/Core (= 6.4.6)
+    - UMengUShare/Network (= 6.4.6)
+    - UMengUShare/Plugin (= 6.4.6)
+    - UMengUShare/Social (= 6.4.6)
+    - UMengUShare/UI (= 6.4.6)
+  - UMengUShare/Core (6.4.6):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.6)
+  - UMengUShare/Plugin (6.4.6):
+    - UMengUShare/Core
+    - UMengUShare/Plugin/IDFA (= 6.4.6)
+  - UMengUShare/Plugin/IDFA (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social (6.4.6):
+    - UMengUShare/Core
+    - UMengUShare/Social/AlipayShare (= 6.4.6)
+    - UMengUShare/Social/DingDing (= 6.4.6)
+    - UMengUShare/Social/Douban (= 6.4.6)
+    - UMengUShare/Social/DropBox (= 6.4.6)
+    - UMengUShare/Social/Email (= 6.4.6)
+    - UMengUShare/Social/EverNote (= 6.4.6)
+    - UMengUShare/Social/Facebook (= 6.4.6)
+    - UMengUShare/Social/FaceBookMessenger (= 6.4.6)
+    - UMengUShare/Social/Flickr (= 6.4.6)
+    - UMengUShare/Social/GooglePlus (= 6.4.6)
+    - UMengUShare/Social/Instagram (= 6.4.6)
+    - UMengUShare/Social/Kakao (= 6.4.6)
+    - UMengUShare/Social/LaiWang (= 6.4.6)
+    - UMengUShare/Social/Line (= 6.4.6)
+    - UMengUShare/Social/Linkedin (= 6.4.6)
+    - UMengUShare/Social/Pinterest (= 6.4.6)
+    - UMengUShare/Social/Pocket (= 6.4.6)
+    - UMengUShare/Social/QQ (= 6.4.6)
+    - UMengUShare/Social/ReducedQQ (= 6.4.6)
+    - UMengUShare/Social/ReducedSina (= 6.4.6)
+    - UMengUShare/Social/ReducedWeChat (= 6.4.6)
+    - UMengUShare/Social/Renren (= 6.4.6)
+    - UMengUShare/Social/Sina (= 6.4.6)
+    - UMengUShare/Social/SMS (= 6.4.6)
+    - UMengUShare/Social/TencentWeibo (= 6.4.6)
+    - UMengUShare/Social/Tumblr (= 6.4.6)
+    - UMengUShare/Social/Twitter (= 6.4.6)
+    - UMengUShare/Social/VKontakte (= 6.4.6)
+    - UMengUShare/Social/WeChat (= 6.4.6)
+    - UMengUShare/Social/WhatsApp (= 6.4.6)
+    - UMengUShare/Social/YiXin (= 6.4.6)
+    - UMengUShare/Social/YouDao (= 6.4.6)
+  - UMengUShare/Social/AlipayShare (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/DingDing (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Douban (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/DropBox (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Email (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/EverNote (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Facebook (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/FaceBookMessenger (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Flickr (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/GooglePlus (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Instagram (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Kakao (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/LaiWang (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Line (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Linkedin (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Pinterest (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Pocket (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/QQ (6.4.6):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Renren (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.4.6):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/SMS (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/TencentWeibo (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Tumblr (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/Twitter (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/VKontakte (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.6):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/Social/WhatsApp (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/YiXin (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/Social/YouDao (6.4.6):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.4.6):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - FXShareCenter (from `../`)
+
+EXTERNAL SOURCES:
+  FXShareCenter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FXShareCenter: 88d1895d169e17d3f03ebddb82e7f23e0762fc6f
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  UMengUShare: fdbbf86353976727af26a66e9a84314ecb59c816
+
+PODFILE CHECKSUM: 698a55fb2e3a6343652a12634ea6a317218cb49e
+
+COCOAPODS: 1.3.1

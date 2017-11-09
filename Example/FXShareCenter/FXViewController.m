@@ -7,7 +7,7 @@
 //
 
 #import "FXViewController.h"
-
+#import "FXShareCenter.h"
 @interface FXViewController ()
 
 @end

@@ -1,0 +1,6 @@
+framework module FXShareCenter {
+  umbrella header "FXShareCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

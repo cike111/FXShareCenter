@@ -1,0 +1,6 @@
+framework module Pods_FXShareCenter_Example {
+  umbrella header "Pods-FXShareCenter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
