@@ -1,6 +1,6 @@
 {
   "name": "FXShareCenter",
-  "version": "0.1.0",
+  "version": "3.0",
   "summary": "A short description of FXShareCenter.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/cike111/",
@@ -13,18 +13,18 @@
   },
   "source": {
     "git": "https://github.com/cike111/FXShareCenter.git",
-    "tag": "0.1.0"
+    "tag": "3.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "FXShareCenter/Classes/*.{h,m}",
-    "FXShareCenter/Classes/**/*.{h,m}"
-  ],
+  "source_files": "FXShareCenter/Classes/*.{h,m}",
   "dependencies": {
-    "UMengUShare": [
+    "FXVender/UMSocial": [
 
+    ],
+    "MJExtension": [
+      "3.0.12"
     ]
   }
 }

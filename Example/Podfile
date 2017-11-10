@@ -1,5 +1,6 @@
 
-
+source 'https://git.coding.net/AlexsGuo/FXSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 target 'FXShareCenter_Example' do
   pod 'FXShareCenter', :path => '../'
 

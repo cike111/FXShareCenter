@@ -84,18 +84,16 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle"
-  install_resource "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
-  install_resource "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
-  install_resource "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Twitter/TwitterKit.framework/Resources/TwitterKitResources.bundle"
-  install_resource "${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle"
+  install_resource "${PODS_ROOT}/FXVender/FXVender/Classes/UMSocial/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "${PODS_ROOT}/FXVender/FXVender/Classes/UMSocial/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
+  install_resource "${PODS_ROOT}/FXVender/FXVender/Classes/UMSocial/UMSocialSDK/UMSocialSDKPromptResources.bundle"
+  install_resource "${PODS_ROOT}/FXVender/FXVender/Classes/UMSocial/UMSocialUI/UMSocialSDKResources.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle"
-  install_resource "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
-  install_resource "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
-  install_resource "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Twitter/TwitterKit.framework/Resources/TwitterKitResources.bundle"
-  install_resource "${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle"
+  install_resource "${PODS_ROOT}/FXVender/FXVender/Classes/UMSocial/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "${PODS_ROOT}/FXVender/FXVender/Classes/UMSocial/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
+  install_resource "${PODS_ROOT}/FXVender/FXVender/Classes/UMSocial/UMSocialSDK/UMSocialSDKPromptResources.bundle"
+  install_resource "${PODS_ROOT}/FXVender/FXVender/Classes/UMSocial/UMSocialUI/UMSocialSDKResources.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

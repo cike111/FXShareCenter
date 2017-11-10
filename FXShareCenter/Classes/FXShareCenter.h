@@ -69,21 +69,26 @@ typedef NS_ENUM(NSInteger,ShareContentType)
  *  @param describe 副标题
  *  @param title 标题
  *  @param iconUrl 缩略图地址
+ *  @param platforms 格式如“1,2,3”，对应平台参考对照参数
  */
 - (instancetype)initWithJURL:(NSString*)url
                     describe:(NSString * )describe
                        title:(NSString * )title
-                     iconUrl:(NSString * )iconUrl;
+                     iconUrl:(NSString * )iconUrl
+                   platforms:(NSString*)platforms;
 /**
  *  @param url 分享链接
  *  @param describe 副标题
  *  @param title 标题
  *  @param image 缩略图
+ *  @param platforms 格式如“1,2,3”，对应平台参考对照参数
  */
 - (instancetype)initWithJURL:(NSString*)url
                     describe:(NSString * )describe
                        title:(NSString * )title
-                       image:(UIImage * )image;
+                       image:(UIImage * )image
+                   platforms:(NSString*)platforms;
+
 /** 分享形式 默认为 ShareContentsType_Usual = 1 */
 @property(nonatomic,copy) NSString * shareFlag;
 /** 地址 */

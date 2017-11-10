@@ -185,7 +185,7 @@ static FXShareCentre* _instance = nil;
     return self;
 }
 
-- (instancetype)initWithJURL:(NSString *)url describe:(NSString *)describe title:(NSString *)title image:(UIImage *)image{
+- (instancetype)initWithJURL:(NSString *)url describe:(NSString *)describe title:(NSString *)title image:(UIImage *)image platforms:(NSString *)platforms{
     self = [super init];
     if (self) {
         self.url = url;
@@ -195,10 +195,11 @@ static FXShareCentre* _instance = nil;
         self.shareFlag = @"1";
         self.needCallback = @"false";
         self.h5Handle = @"false";
+        self.sharePlatform = platforms;
     }
     return self;
 }
-- (instancetype)initWithJURL:(NSString *)url describe:(NSString *)describe title:(NSString *)title iconUrl:(NSString *)iconUrl{
+- (instancetype)initWithJURL:(NSString *)url describe:(NSString *)describe title:(NSString *)title iconUrl:(NSString *)iconUrl platforms:(NSString *)platforms{
     self = [super init];
     if (self) {
         self.url = url;
@@ -208,6 +209,7 @@ static FXShareCentre* _instance = nil;
         self.shareFlag = @"1";
         self.needCallback = @"false";
         self.h5Handle = @"false";
+        self.sharePlatform = platforms;
     }
     return self;
 }
