@@ -1,5 +1,7 @@
 PODS:
-  - FXShareCenter (3.0):
+  - FXCategory/Toast (0.1.0)
+  - FXShareCenter (4.0):
+    - FXCategory/Toast
     - FXVender/UMSocial
     - MJExtension (= 3.0.12)
   - FXVender/UMSocial (0.7)
@@ -13,10 +15,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FXShareCenter: 30c71a306dc8c9990113e649747e79ce3a6b08e7
+  FXCategory: f99a3daeaa327432742265ed16678db0e3ebcad6
+  FXShareCenter: 0ab5d1617d49d69bda22b1bb7150ff0e8b2ca557
   FXVender: c25fb932377cc270851a94ef7b07044703e27887
   MJExtension: 61bcf70d30acf0a09dde48e68502da0fde8eeafa
 
-PODFILE CHECKSUM: 603d99840d401a00e5b494f6d754b73d51b56407
+PODFILE CHECKSUM: eef016d502c603f63c594261ae9116c2dcf48c3a
 
 COCOAPODS: 1.3.1

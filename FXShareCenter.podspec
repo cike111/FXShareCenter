@@ -41,4 +41,5 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency  'FXVender/UMSocial'
     s.dependency  'MJExtension', '3.0.12'
+    s.dependency  'FXCategory/Toast'
 end
